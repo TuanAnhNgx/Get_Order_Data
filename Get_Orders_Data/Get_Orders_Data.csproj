@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.1" />
+    <PackageReference Include="IronOcr" Version="2023.1.11644" />
+    <PackageReference Include="IronOcr.Languages.Vietnamese" Version="2020.11.2" />
+    <PackageReference Include="IronSoftware.Native.PdfModel" Version="2023.8.17287" />
+  </ItemGroup>
+
+</Project>

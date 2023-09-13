@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\DotNet\\Winform\\Get_Orders_Data\\Get_Orders_Data\\Get_Orders_Data.csproj": {}
+  },
+  "projects": {
+    "H:\\DotNet\\Winform\\Get_Orders_Data\\Get_Orders_Data\\Get_Orders_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\DotNet\\Winform\\Get_Orders_Data\\Get_Orders_Data\\Get_Orders_Data.csproj",
+        "projectName": "Get_Orders_Data",
+        "projectPath": "H:\\DotNet\\Winform\\Get_Orders_Data\\Get_Orders_Data\\Get_Orders_Data.csproj",
+        "packagesPath": "C:\\Users\\TuanAnh\\.nuget\\packages\\",
+        "outputPath": "H:\\DotNet\\Winform\\Get_Orders_Data\\Get_Orders_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TuanAnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.1, )"
+            },
+            "IronOcr": {
+              "target": "Package",
+              "version": "[2023.1.11644, )"
+            },
+            "IronOcr.Languages.Vietnamese": {
+              "target": "Package",
+              "version": "[2020.11.2, )"
+            },
+            "IronSoftware.Native.PdfModel": {
+              "target": "Package",
+              "version": "[2023.8.17287, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
